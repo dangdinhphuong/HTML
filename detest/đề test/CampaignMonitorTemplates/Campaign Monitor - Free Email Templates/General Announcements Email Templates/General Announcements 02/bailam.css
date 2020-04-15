@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 
+}
+.clear{
+	clear: both;
+}
+.tong1{
+	max-width: 600px;
+	margin: auto;
+     border: 2px solid black;
+}
+nav >img{
+	width: 600px;
+	height: 100px;
+}
+.than{
+	width: 100%;
+	height: auto;
+}
+.banner{
+	position: relative;
+}
+.banner> img{
+	width: 580px;
+	height: 300px;
+	margin: 0px 8px;
+
+   
+}
+.tieude{
+width: 300px;
+height: auto;
+background-color: #e1e1e1;
+opacity: 1;
+position: absolute;
+top: 50%;
+left: 20%;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.tieude h4{
+	text-align: center;
+	color: #78C3E7;
+	padding-top: 10px
+}
+.tieude h5{
+	padding-bottom: 10px;
+	text-align: center;
+}
+.font h3{
+ text-align: center;
+ color: #78C3E7;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.anh{
+	width: 98%;
+	height: auto;
+	margin:8px auto;
+}
+.col{
+	width: 33.3%;
+	height: 300px;
+	float: left;
+	
+}
+/*#cach{
+	width: 32%;
+	height: 300px;
+	float: right;
+	margin-right: 8px;
+}*/
+.project{
+	width: 150px;
+	height: 300px;
+   margin: auto;
+}
+.project>img{
+	width: 100%;
+	height: 150px;
+	
+
+}
+.chon{
+	width: 100px;
+	height: auto;
+	line-height: 30px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #0185D0;
+	border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.ngonngu{
+	width: auto;
+	height: auto;
+	background-color: #0185D0;
+	padding: 8px;
+	margin: 8px;
+	border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+
+}
+.ngonngu> h4{
+	text-align: center;
+}
+.ngonngu>p{
+	text-align: center;
+}
+.clear{
+	clear: both;
+}
+.tieude2 h3{
+text-align: center;
+ color: #78C3E7;
+}
+.tongbia{
+	margin: 10px 0;
+	width: 100%;
+	height: 150px;
+}
+.anhbia1{
+width: 49%;
+height: 150px;
+float: left;
+}
+.anhbia1> img{
+	width:90%;
+	height:100%;
+	margin-left: 8px;
+	
+}
+#bai2{
+	margin-top: 10px;
+}
+.chu{
+	width: 51%;
+height: 150px;
+	float: right;
+}
+.chu h3{
+font-weight: bold;
+}
+ .more{
+width: 100px;
+height: 30px;
+background-color: blue;
+	border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+.more p{
+text-align: center;
+line-height: 30px;
+}
+footer{
+	width:100%;
+	height: auto;
+	background-color: #0185D0;
+}
+footer> p{
+	text-align: center;
+	padding-top: 10px;
+}
+.ticon{
+	margin-top: 10px;
+
+	margin-left: 30%;
+}
+.icon> img{
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 5px;
+		margin-bottom: 10px;
+
+}
+.menu{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.menu ul li{
+	display:inline-block;
+	line-height: 45px;
+	padding-right:  5px;
+	margin-left:  8px;
+	padding-left: 5px;
+	text-align: center;
+	float: left;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color:black;
+	text-align: center;
+	
+}

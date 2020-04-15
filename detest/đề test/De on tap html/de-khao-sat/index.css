@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tong{
+	max-width: 100%;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+nav{
+	width: 100%;
+	height: 150px;
+	background-color: #253156;
+	text-align: center;
+}
+nav>img{
+height: 140px;
+margin: 5px 0;
+
+}
+.menu{
+	width: 100%;
+	height: 35px;
+	background-color: #B94A00;
+}
+.menu>ul>li{
+	float: left;
+	display: inline-block;
+	margin: 0 15px;
+}
+.menu>ul>li>a{
+	display: block;
+	color: #FFFFFF;
+	line-height: 35px;
+	text-decoration: none;
+}
+.menu>ul>li>a:hover{
+	text-decoration: underline;
+}
+.banner >img{
+	margin: 8px 0;
+	width: 100%;
+	height: 200px;
+}
+.search{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+		background-color: #B94A00;
+}
+form{
+	line-height: 40px;
+}
+form> input{
+	width: 70%;
+	height: 35px;
+	color: gray;
+	padding-left: 5px;
+   margin-right: 15px;
+}
+form> button{
+	color: #FFFFFF; 
+	height: 35px;
+	padding: 2px 20px;
+	background-color:#253156;
+	border: none; 
+}
+/*/////////////////////////////*/
+.than{
+	margin-top: 10px;
+	width: 100%;
+}
+.than>.top{
+	width: 100%;
+}
+.col{
+	float: left;
+	width: 49%;
+	margin-right: 2px;
+	border: 1px solid gray;
+
+}
+.col:nth-child(2){
+	float: right;
+	margin-right: 0px;
+}
+.product{
+	width: 80%;
+	margin: auto;
+}
+.than>.top>.col>.product>img{
+	text-align: center;
+	width: 100%;
+	height: 400px;
+	margin:10px 0; 
+}
+.than>.top>.col>.product>a{
+	text-decoration: none;
+	color: #B94A00;
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.than>.buttom{
+	width: 100%;
+	border-bottom: 1px solid gray;
+	border-top: 1px solid gray;
+	margin-top: 10px;
+}
+.than>.buttom>.left{
+float: left;
+width: 49%;
+/*text-align:center;*/
+
+}
+.than>.buttom>.left>img{
+	float: right;
+	width: 95%;
+margin: 5px 0 20px 5px;
+}
+.than>.buttom>.right{
+	float: right;
+	width: 49%;
+}
+.than>.buttom>.right>h2{
+	margin:5px 0;
+color:  #B94A00;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #235A7F;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 20px;
+}

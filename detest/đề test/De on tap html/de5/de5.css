@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #484848;
+}
+.tong{
+	max-width: 1700px;
+	margin: 0 auto;
+	
+
+}
+.clear{
+	clear: both;
+}
+nav{
+	max-width: 1700px;
+	margin:0 auto;
+	text-align: center;
+	padding: 20px 0;
+	background-color:#FFFFFF; 
+}
+.menu{
+	max-width: 1700px;
+	margin: auto;
+	max-width: 100%;
+	height: 40px;
+	background-color:#819E06; 
+}
+
+.menu ul li{
+	display:inline-block;
+	padding-left: 20px;
+	font-size: 20px;
+	float: left;
+
+}
+.menu ul li a{
+	padding: 0px 10px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 40px;
+	text-align: center;
+	
+}
+.menu ul li a:hover{
+	text-decoration: underline;
+}
+form{
+	float: right;
+	line-height: 40px;
+}
+form>input{
+	height: 30px;
+	width: 280px;
+	margin-right: 20px;
+
+}
+form>button{
+	height: 30px;
+	background-color: black;
+	text-align: center;
+	line-height: 30px;
+	padding: 0 10px;
+	border: 1px solid #819E06; 
+	color: #FFFFFF;
+	margin-right: 100px;
+	
+
+}
+.than{
+	max-width: 100%;
+	height: 1200px;
+background-color:#FFFFFF;
+	margin: auto;
+
+}
+.than>.trai{
+	float: left;
+	max-width: 69%;
+   border-bottom: 1px solid black;
+  
+}
+.anh{
+	float: left;
+	width: 60%;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 15px;
+	
+}
+.anh img{
+	width: 100%;
+}
+.than>.trai>.tt{
+	float: right;
+	width: 39%;
+	
+	
+}
+.than>.trai>.tt>h3{
+
+	margin-left: 10px;
+	padding: 20px 10px 20px 15px;
+	color: #879943;
+}
+.than>.trai>.tt>p{
+	margin-left: 10px;
+	padding: 20px 10px 20px 15px;
+}
+.than>.phai{
+	margin: 5px 0px 5px 5px;
+	float: right;
+	height: 98%;
+	max-width: 30%;
+   background-color: #819E06; 
+ }  
+.than>.phai h2{
+	padding: 20px 20px;
+	color: #FFFFFF;
+
+}
+.than>.phai ul li{
+	display:inline-block;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	
+
+}
+.than>.phai ul li:hover{
+	background-color: #FF9800;
+}
+.than>.phai ul li a{
+	padding: 10px 10px;
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	
+	
+}
+.than>.phai ul li a img{
+	float: left;
+	margin-left: 5px;
+
+}
+footer{
+	max-width: 100%;
+	max-height: 50px;
+	text-align: center;
+	line-height: 50px;
+	 background-color: #819E06; 
+	 color: #FFFFFF;
+}

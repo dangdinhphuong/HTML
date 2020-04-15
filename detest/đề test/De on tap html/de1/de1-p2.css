@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+}
+.tong{
+	width: 980px;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+nav{
+	width: 980px;
+	height: 100px;
+	background-color: #272F54;
+	text-align: center;
+}
+nav>img{
+	padding-top: 20px;
+}
+.menu{
+	width: 980px;
+	height: 37px;
+	background-color: #AD4601;
+}
+.menu>ul{
+	float: left;
+	width: 680px;
+	/*border: 1px solid black;*/
+}
+.menu>ul>li{
+	display: inline-block;
+/*	margin: 0 10px;*/
+padding: 0 10px;
+font-size: 13px;
+	line-height: 37px;
+}
+.menu>ul>li>a{
+	display: block;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.menu>ul>li>a:hover{
+	text-decoration: underline;
+}
+form{
+	float: right;
+	line-height: 37px;
+}
+form>input{
+	width: 190px;
+	height: 25px;
+	border: none;
+	margin-right: 15px;
+
+}
+form>button{
+	width: 70px;
+	height: 25px;
+	border: none;
+	margin-right: 15px;
+	color: #FFFFFF;
+	background-color:#272F54;
+	border: 1px solid #cccccc;
+}
+.banner>img{
+	width: 980px;
+	height: 272px;
+	margin: 5px 0;
+}
+.than{
+	width: 980px;
+	margin-bottom: 10px;
+}
+.top{
+	width: 980px;
+	border: 1px solid  #cccccc;
+	/*height: 300px;*/
+}
+.trai{
+	width: 485px;
+	float: left;
+}
+.trai>img{
+	padding: 5px;
+	width: 480px;
+	height: 250px;
+	float: right;
+}
+.phai{
+	width: 485px;
+	float: right;
+}
+.phai>h3{
+	padding: 10px 0;
+}
+.phai>h3>a{
+	text-decoration: none;
+	color: #AD4601;
+}
+.phai>h3>a:hover{
+	text-decoration: underline;
+}
+.button{
+	width: 980px;
+	margin: 15px 0px 10px 0;
+}
+.col{
+	width:316.666px;
+	float: left;
+	margin-right: 15px; 
+	border: 1px solid #cccccc;
+}
+.col:nth-child(3){
+	float: right;
+	margin-right: 0px;
+}
+.product{
+	margin: 10px 0  0 20px ;
+	/*max-width: 280px;
+	margin:5px auto;*/
+}
+.product>img{
+	
+	width: 270px;
+	margin: auto;
+}
+.product>h3>a{
+	text-decoration: none;
+	color: #AD4601;
+}
+.product>h3{
+	margin: 10px 0;
+}
+.product>h3>a:hover{
+	text-decoration: underline;
+}
+.product>p{
+	margin-bottom: 10px;
+}
+footer{
+	width: 980px;
+	height: 60px;
+	background-color: #AD4601;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}

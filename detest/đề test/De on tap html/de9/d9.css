@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tong{
+	max-width: 100%;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+nav{	
+padding:10px 20px;
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background-color:#0561AC; 
+	text-align: center;
+}
+.menu> ul>li{
+	display: inline-block;
+	padding: 0 50px;
+}
+.menu> ul>li>a{
+	display:block;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 25px;
+	line-height: 40px;
+}
+.menu> ul>li>a:hover{
+	text-decoration: underline;
+}
+.banner>img{
+	width: 100%;
+	height: 200px;
+}
+/*===================================*/
+.noidung{
+	max-width: calc(100% - 40px);
+	margin: auto;
+	margin-top: 15px;
+}
+.trai{
+	float: left;
+	width: calc(100% - 20%);
+	
+}
+.trai>.col{
+	float: left;
+	width: 31.3333%;
+
+	margin-right: 3%;
+	border: 1px solid #0561AC;
+	text-align: center;
+}
+.trai>.col:nth-child(3){
+	float: right;
+	margin-right: 0%;
+}
+.trai>.col>.project>img{
+width: 70%;
+/*height: calc(100% - 50%);*/
+	height: 400px;
+}
+/*.trai>.col>.project>img:nth-child(1){
+width: 100%;
+
+	background-color: red;
+}*/
+.trai>.col>.project>h2{
+margin: 20px 0;
+}
+.trai>.col>.project>p{
+	margin-bottom: 20px;
+}
+
+.phai{
+	float: right;
+	width: calc(100% - 82%);
+	height: 500px;
+
+}
+form>input{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	border: 1px solid #0561AC;
+	padding-left: 15px;
+	font-size: 20px;
+	color: gray;
+}
+form>button{
+	width: 30%;
+	text-align: center;
+	background-color: #0561AC;
+	border: 1px solid #0561AC;
+	line-height: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+footer{
+	margin: 15px 0;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	background-color:#0561AC;
+	line-height: 60px;
+	color: #FFFFFF;
+	font-size: 21px; 
+}

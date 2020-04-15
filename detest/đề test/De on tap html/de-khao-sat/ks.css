@@ -1,0 +1,149 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tong{
+	max-width: 976px;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+nav{
+	width: 976px;
+	height: 100px;
+	background-color:#272F54; 
+	text-align: center;
+}
+nav> img{
+	padding: 10px 0;
+}
+.menu{
+	margin-top: 3px;
+	margin-bottom: 6px;
+	width: 100%;
+	height: 37px;
+	background-color: #B96228;
+}
+ul>li{
+	display: inline-block;
+	margin: 0 15px;
+}
+ul>li>a{
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	line-height: 37px;
+	font-size: 15px;
+}
+a:hover{
+	text-decoration: underline;
+}
+.banner>img{
+	width: 100%;
+	height: 264px;	
+}
+.search{
+	width: 976px;
+	height: 60px;
+	background-color: #B96228;
+	text-align: center;
+	margin: 5px 0;
+}
+form{
+	line-height: 60px;
+}
+form>input{
+	width: 747px;
+	height: 31px;
+	padding-left: 5px;
+	color: gray;
+	line-height: 31px;
+	margin-right: 20px;
+}
+form>button{
+	width: 116px;
+	height: 31px;
+	background-color:#272F54;
+	color: #FFFFFF;
+	line-height: 31px;
+	text-align: center; 
+	border: 1px solid #FFFFFF; 
+}
+.than{
+	width: 976px;
+	margin: 8px 0;
+}
+.than>.top{
+	width: 976px;
+	margin-bottom: 8px;
+}
+.than>.top>.col{
+	width: calc(50% - 15px);
+	float:left;
+	margin-right: 15px;
+	border: 1px solid gray;
+}
+.than>.top>.col:nth-child(2){
+	float: right;
+	margin-right: 0px;
+}
+.than>.top>.col>.product{
+	max-width: 400px;
+	margin: auto;
+	margin-bottom: 35px;
+}
+.than>.top>.col>.product>img{
+	height: 224px;
+	width: 400px;
+	margin: 15px 0;
+}
+.than>.top>.col>.product>a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #B96228;
+	margin: 15px 0 15px 0;
+}
+.than>.top>.col>.product>a:hover{
+	text-decoration: underline;
+}
+.than>.buttom{
+	width: 976px;
+	border: 1px solid #cccccc;
+}
+.than>.buttom>.trai{
+	width: calc(50% - 15px);
+	float: left;
+}
+.than>.buttom>.trai>img{
+	float: right;
+	width: 450px;
+	height:272px;
+	margin: 10px 0;
+}
+.than>.buttom>.phai{
+	width: calc(50% - 15px);
+	float: right;
+	margin: 10px 0;
+}
+.than>.buttom>.phai>a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #B96228;
+}
+.than>.buttom>.phai>a:hover{
+	text-decoration: underline;
+}
+.than>.buttom>.phai>p{
+	padding-top: 10px;
+}
+footer{
+	width: 976px;
+	height: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	background-color: #272F54;
+}
+

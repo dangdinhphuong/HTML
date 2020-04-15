@@ -1,0 +1,478 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tong{
+	max-width: 100%;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+nav{
+	max-width: 1200px;
+	height: 60px;
+	margin: auto;
+}
+nav img{
+	float: left;
+	margin-top: 8px;
+}
+.menu ul li{
+	display:inline-block;
+margin-top: 14px;
+padding-left: 20px;
+font-size: 20px;
+float: left;
+
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	color: red;
+	text-align: center;
+	
+}
+form{
+	margin-left: 25px;
+	width: 235px;
+	float: right;
+	position: relative;
+	margin-top: 14px;
+	border: 1px solid gray;
+	border-radius: 5px 5px 5px 5px;
+}
+form input{
+	width: 200px;
+	height: 32px;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+}
+form button img{
+	position: absolute;
+	width: 31px;
+	height: 31px;
+	top: -8px;
+	right: 1px;
+	border-radius: 5px 5px 5px 5px;
+}
+/*//////////////////////xong menu/////////////////////*/
+.toanthan{
+	width: 1200px;
+	height: 1900px;
+	margin: 30px auto;
+	*/
+}
+.phai{
+	width: 70%;
+	height: 100%;
+	float: left;
+	/*background-color: blue;*/
+}
+
+.phai>.p1{
+	width: 100%;
+	height: 400px;
+	/*;*/
+}
+.phai>.p1>.left{
+	float: left;
+	width: 58%;
+	height: 100%;
+}
+.phai>.p1>.left>img{
+	width: 97%;
+	height: 260px;
+}
+.phai>.p1>.left> h3{
+	margin: 10px 0px;
+}
+.phai>.p1>.left>p{
+	color: gray;
+	/*font-size: 17px;*/
+}
+.phai>.p1>.right{
+	float: right;
+	width: 42%;
+	height: 100%;
+}
+.phai>.p1>.right>.nho{
+	width: 100%;
+	height: 80px;
+
+	
+
+}
+.phai>.p1>.right>.nho>.anhnho{
+	width: 40%;
+	height: 63px;
+	/*margin-left: 10px;*/
+	float: left;
+	
+}
+.phai>.p1>.right>.nho>.anhnho>img{
+	width: 90%;
+	height: 100%;
+}
+.phai>.p1>.right>.nho>.chunho{
+	width: 60%;
+	height: 63px;
+	float: right;
+	
+}
+.phai>.p1>.right>.nho>.chunho>h3{
+	font-size: 18px;
+	padding-right: 20px;
+}
+
+
+.phai>.baosukien{
+	width: 100%;
+	height: 1500px;
+	
+}
+.phai>.baosukien>.tongsukien{
+	width: 100%;
+	height: 300px;
+
+}
+.phai>.baosukien>.tongsukien>.sukien{
+	width: 97.5%;
+	height: 40px;
+	margin-top: 10px;
+	border-bottom:1px solid green ;
+}
+.phai>.baosukien>.tongsukien>.sukien>.tieude>h3{
+	color:#FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	width: 100px;
+	height: 40px;
+	background-color: green
+}
+.phai>.baosukien>.tongsukien>.tongnd{ /*chính*/
+	width: 100%;
+	height: 230px;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon{
+	width: 70%;
+	height:100%;
+	float: left;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>h3{
+	padding: 10px 0;
+	font-size: 20px;
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>.trong{
+	width: 100%;
+	height:160px;
+	float: left;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>.trong>.tronganh{
+	width: 48%;
+	height: 100%;
+	float: left;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>.trong>.tronganh>img{
+	width: 90%;
+	height: 100%;
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>.trong>.trongchu{
+	width: 52%;
+	height: 100%;
+	float: right;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.leftlon>.trong>.trongchu>p{
+	/*font-size: 20px;*/
+	padding-right: 20px;
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon{
+	width: 30%;
+	height:100%;
+	float: right;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong{
+	width: 100%;
+	height:215px ;
+	margin: 15px 0px 0px 0px;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong>.tongtt{
+	width: 100%;
+	height: 87.5px;
+	
+	margin-bottom: 14px;
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong>.tongtt>.tongttrai{
+	width: 35%;
+	height: 100%;
+	float: left;
+	
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong>.tongtt>.tongttrai>img{
+	width: 100%;
+	height: 100%;
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong>.tongtt>.tongttphai{
+	width: 65%;
+	height: 100%;
+	float: right;
+	
+
+}
+.phai>.baosukien>.tongsukien>.tongnd>.rightlon>.tongtrong>.tongtt>.tongttphai>p{
+	padding-right: 20px;
+	padding-left: 10px;
+	/*font-size: 15px;*/
+	font-weight: bold;
+}
+/*//////////////////XONG PHẢI///////////////////////////*/
+.tongtrai{
+	width: 30%;
+	height: 100%;
+	float: right;
+
+}
+.tongtrai>.trai{
+	width: 340px;
+	height: 100%;
+	float: right;
+
+}
+.tongtrai>.trai>.img{
+	width: 100%;
+	height: 360px;
+	border-bottom: 1px solid green;
+}
+.tongtrai>.trai>.img>img{
+	width: 100%;
+	height: 300px;
+	
+}
+.tongtrai>.trai>.img>h2{
+	font-size: 25px;
+	padding:20px 0; 
+	margin-bottom: 10px;
+}
+.tongtrai>.trai>.tmuc{
+	width: 100%;
+	height: 63px;
+	margin-top: 15px;
+}
+.tongtrai>.trai>.tmuc>.muctrai{
+	width: 40%;
+	height:100%;
+	float: left;
+}
+.tongtrai>.trai>.tmuc>.muctrai>img{
+	width: 98%;
+	height: 100%;
+}
+.tongtrai>.trai>.tmuc>.mucphai{
+	width: 60%;
+	height:100%;
+	float: right;
+}
+.tongtrai>.trai>.tmuc>.mucphai>p{
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.tongtrai>.trai>.tmuc3{
+	width: 100%;
+	height: 63px;
+	margin-top: 40px;
+}
+.tongtrai>.trai>.tmuc3>.muctrai{
+	width: 40%;
+	height:100%;
+	float: left;
+}
+.tongtrai>.trai>.tmuc3>.muctrai>img{
+	width: 98%;
+	height: 100%;
+}
+.tongtrai>.trai>.tmuc3>.mucphai{
+	width: 60%;
+	height:100%;
+	float: right;
+}
+.tongtrai>.trai>.tmuc3>.mucphai>p{
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 17px;
+}
+/*////////*/
+.tongtrai>.trai>.tmuc2{
+	width: 100%;
+	height: 63px;
+	margin-top: 15px;
+}
+.tongtrai>.trai>.tmuc2>.muctrai{
+	width: 40%;
+	height:100%;
+	float: left;
+}
+.tongtrai>.trai>.tmuc2>.muctrai>img{
+	width: 98%;
+	height: 100%;
+}
+.tongtrai>.trai>.tmuc2>.mucphai{
+	width: 60%;
+	height:100%;
+	float: right;
+}
+.tongtrai>.trai>.tmuc2>.mucphai>p{
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 17px;
+}
+.tongtrai>.trai>.banner>img{
+	margin-top: 50px;
+	width: 100%;
+	height: 650px;
+}
+/*//////////////////xong thân//////////////////////*/
+footer{
+	width: 100%;
+	height: 300px;
+	background-color: #01A050;
+}
+
+footer>.tongket{
+	max-width: 1200px;
+	height: 300px;
+	margin: auto;
+	
+}
+footer>.tongket>.kettrai{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+footer>.tongket>.kettrai>.menutrai{
+	width: 60%;
+	height: 100%;
+	float: left;
+	
+}
+footer>.tongket>.kettrai>.menutrai>h2{
+	padding-top: 30px;
+	color: #FFFFFF;
+}
+footer>.tongket>.kettrai>.menutrai>p{
+	padding-top: 15px;
+	padding-right: 20px;
+	color: #FFFFFF;
+}
+footer>.tongket>.kettrai>.menutrai>.email{
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+footer>.tongket>.kettrai>.menutrai>.email>img{
+	margin-left: 10px;
+	width: 20px;
+	height: 18px;
+}
+
+
+footer>.tongket>.kettrai>.menuphai{
+	width: 40%;
+	height: 100%;
+	float: right;
+
+}
+footer>.tongket>.kettrai>.menuphai>h2{
+	padding-top: 30px;
+	color: #FFFFFF;
+	padding-left: 30px;
+}
+
+footer>.tongket>.kettrai>.menuphai>.dmenu >ul{
+list-style: none;
+margin-left: 30px;
+}
+footer>.tongket>.kettrai>.menuphai>.dmenu >ul>li{
+margin-bottom: 20px;
+}
+.dmenu ul li a{
+	text-decoration: none;
+		color: #FFFFFF;
+		font-size: 20px; 
+		padding-left: 10px;	
+}
+.dmenu ul li a >img{
+	width: 20px;
+	height: 15px;
+	margin-right: 10px;
+}
+
+
+
+
+/*//////////////////*/
+footer>.tongket>.ketphai{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+footer>.tongket>.ketphai>.tintuc{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+footer>.tongket>.ketphai>.tintuc>h2{
+	
+	padding-top: 30px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+footer>.tongket>.ketphai>.tintuc>.dmenu2{
+	width: 100%;
+	height: 100%;
+    font-size: 15px;
+}
+footer>.tongket>.ketphai>.tintuc>.dmenu2>ul li{
+	padding-bottom: 15px;
+}
+
+footer>.tongket>.ketphai>.tintuc>.dmenu2>ul{
+	list-style: none;
+}
+
+.dmenu2 ul li a{
+	text-decoration: none;
+		color: #FFFFFF;
+		font-size: 20px; 
+		padding-right: 30px;	
+}
+footer>.tongket>.ketphai>.fan{
+	width: 40%;
+	height: 100%;
+	float: right;
+}
+footer>.tongket>.ketphai>.fan>h2{
+	padding-top: 30px;
+	padding-left: 10px;
+	color: #FFFFFF;
+}
+footer>.tongket>.ketphai>.fan>img{
+	margin-top: 20px;
+	width: 95%;
+	float: right;
+}
+/*//////////////////////*/
+.kao h3{
+text-align: center;
+padding-top: 15px;
+padding-bottom: 50px;
+}
